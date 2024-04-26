@@ -40,9 +40,3 @@ Si encuentras algún problema o tienes sugerencias de mejora, no dudes en abrir 
 ## Licencia
 
 Este proyecto se distribuye bajo la [Licencia MIT](LICENSE).
-
-Citations:
-[1] https://markdown.es
-[2] https://codekitapp.com/help/markdown/
-[3] https://www.markdownguide.org
-[4] https://www.markdownguide.org/getting-started/
