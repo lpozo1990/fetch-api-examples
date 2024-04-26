@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Métodos HTTP y Fetch</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Métodos HTTP y Fetch</h1>
+    </header>
+
+    <main>
+      <section class="methods-section">
+        <h2>Métodos HTTP</h2>
+        <ul id="http-methods"></ul>
+      </section>
+
+      <section class="data-section">
+        <h2>Datos Adicionales</h2>
+        <div class="input-group">
+          <label for="additional-data">Datos:</label>
+          <textarea
+            id="additional-data"
+            placeholder="Ingrese los datos adicionales"
+          ></textarea>
+        </div>
+        <div class="input-group">
+          <label for="id-input">ID:</label>
+          <input type="text" id="id-input" placeholder="Ingrese el ID" />
+        </div>
+      </section>
+
+      <section class="response-section">
+        <h2>Respuesta de la API</h2>
+        <div id="api-response"></div>
+        <div id="loading-indicator" class="hidden">Cargando...</div>
+      </section>
+
+      <section class="info-section">
+        <h2>Usando {JSON} Placeholder</h2>
+        <p>
+          Esta aplicación utiliza la API de {JSON} Placeholder para realizar las
+          peticiones HTTP.
+        </p>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
